@@ -6,21 +6,21 @@ For each example directory, for example `ec2-example`, `cd` into that directory 
 
 `terraform init`
 
-Then run
+To view the changes that would be made, run
 
 `terraform plan`
 
-To view the changes that would be made.
 
-Finally, run
+
+To actually create the infrastructure from the template, run
 
 `terraform apply`
 
-To create the infrastructure from the template.
+and enter `yes` when prompted.
 
 
-Run
+Once you have finished using the resources from the template, run
 
 `terraform destroy`
 
-Once you have finished using the resources from the template.
+
